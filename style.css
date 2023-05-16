@@ -23,6 +23,10 @@
     padding: 0px;
 }
 
+a.externo::after {
+    content: '\1F517';
+}
+
 
 body{
     font-family: var(--font-padrao);
@@ -207,8 +211,11 @@ aside a {
 }
 
 aside a:hover {
-    text-decoration: underline;
+    background-color: #617339;
     color: white;
+    text-decoration: underline;
+    padding: 3px;
+    border-radius: 5px;
     
 }
 
