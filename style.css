@@ -173,6 +173,7 @@ aside {
     margin: 0px -20px 0px -20px;
     padding-bottom: 20px;
     border-radius: 10px;
+    text-indent: 2%;
 }
 
 aside h3 {
@@ -198,9 +199,6 @@ aside ul {
     padding: 10px;
 }
 
-aside {
-    text-indent: 2%;
-}
 
 aside a {
     color: #1a5c37;
